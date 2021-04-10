@@ -661,10 +661,18 @@ input[type=number],input[type=resumeLink]
 }
 
 
-section.hire-me .form-container .form-submit .registerBtn input{
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    border: 5px solid blue;
+
+section.hire-me .form-container .form-submit .registerBtn input,section.company-hire-me .form-container .form-submit .registerBtn input{
+    font-size: 1rem;
+    /* margin-top: -100rem; */
+    transform: translateY(-15%);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    outline: none;
+    background: #0F1941;
+    border-radius: 10px;
+    color: var(--heaven);
+    box-shadow: 3px 3px 10px rgb(126, 125, 125);
 
 }
 
@@ -841,12 +849,7 @@ input[type=number],input[type=resumeLink]
 }
 
 
-section.company-hire-me .form-container .form-submit .registerBtn input{
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    border: 5px solid blue;
 
-}
 
 
 
