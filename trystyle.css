@@ -384,6 +384,10 @@ nav .navbar a:hover{
     z-index: 1; */
 
 }
+.hero .welcome-buttons .candidate button a,.hero .welcome-buttons .employer button a{
+    text-decoration: none;
+    color: black;
+}
 .hero .welcome-buttons .employer{
     background: var(--heaven);
     padding: 1rem 6rem;
