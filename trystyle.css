@@ -2317,6 +2317,10 @@ footer.copyright{
     
 }
 @media (max-width:500px){
+    .navbar .container{
+        flex-direction: column;
+        text-align: center;
+    }
     header.topbar .heading-topbar{
         display: none;
     }
@@ -2600,6 +2604,9 @@ section.contact-us {
     }
 }
 @media only screen and (max-width:480px) {
+    .hero .welcome h1{
+        font-size: 2rem;
+    }
     section.contact-us{
         padding: 1rem 0.5rem;
     }
@@ -2641,7 +2648,7 @@ section.contact-us {
     .hero .container .welcome-buttons .employer{
         margin-left: 2rem;
         margin-right: 2rem;
-	margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
     }
     .hero .welcome-buttons .candidate h4,.hero .welcome-buttons .employer h4{
         font-size: 1rem;
