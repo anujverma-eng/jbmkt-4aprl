@@ -2297,8 +2297,87 @@ footer.copyright{
     }
 }
 
-@media (max-width:510px){
+@media (max-width:550px){
+    .icon-bar {
+        display: none;
+    }
     
+}
+@media (max-width:500px){
+    header.topbar .heading-topbar{
+        display: none;
+    }
+    header.topbar{
+        font-size: 0.7rem;
+    }
+    header.topbar .icons{
+        margin-right: 0rem;
+    }
+    header.topbar .emp-topbar{
+        margin-left: 1.2rem;
+    }
+    header.topbar .emp-topbar a i{
+        display: none;
+    }
+    .hero .welcome h1{
+        font-size: 1.1rem;
+    }
+    .hero .welcome h3{
+        font-size: 0.5rem;
+    }
+    nav .top{
+        padding-top: 1.5rem;
+    }
+    .hero .welcome-buttons .candidate h4,.hero .welcome-buttons .employer h4{
+        font-size: 0.85rem;
+    }
+    .hero .welcome-buttons .candidate button,.hero .welcome-buttons .employer button{
+        font-size: 0.85rem;
+        padding: 0.75rem;
+    }
+    section.hire-me  .main-form-content div label{
+        font-size: 0.75rem;
+        width: 100px;
+    }
+    section.hire-me .form-container .main-form-content .form-divider{
+        margin: 0.75rem 0;
+    }
+    section.hire-me  .main-form-content div input{
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
+    section.hire-me  .main-form-content div textarea{
+        border-radius: 5px;
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
+    section.hire-me  .main-form-content div select{
+        border-radius: 5px;
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
+    section.company-hire-me  .main-form-content div label{
+        font-size: 0.8rem;
+        margin-right: 3rem;
+        width: 150px;
+    }
+    section.company-hire-me .form-container .main-form-content .form-divider{
+        margin: 0.75rem 0;
+    }
+    section.company-hire-me  .main-form-content div input{
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
+    section.company-hire-me  .main-form-content div textarea{
+        border-radius: 5px;
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
+    section.company-hire-me  .main-form-content div select{
+        border-radius: 5px;
+        height: 1.5rem;
+        padding: 0.2rem;
+    }
 }
 
 
