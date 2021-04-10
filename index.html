@@ -23,7 +23,7 @@
 
     <!-- Landing Page Starts -->
     <!-- Landing Page Starts -->
-    <div class="animation-area">
+    <div class="animation-area" id="home">
 		<ul class="box-area">
 			<li></li>
 			<li></li>
@@ -43,7 +43,7 @@
 			<li></li>
 		</ul>
 
-        <header class="topbar">
+        <header class="topbar" >
             <div class="container flex justify-between">
                 <div class="icons">
                     <a href="#" ><i class="fab fa-facebook"></i></a>
@@ -56,7 +56,7 @@
                     <h3>Jobs Market India</h3>
                 </div>
                 <div class="emp-topbar">
-                    <a href="#"><i class="fas fa-user-alt"></i>Employers, Post a Job, It's FREE! </a>
+                    <a href="#postjob"><i class="fas fa-user-alt"></i>Employers, Post a Job, It's FREE! </a>
                 </div>
             </div>
         </header>
@@ -89,10 +89,10 @@
             <div class="navbar">
                 <div class="container flex justify-between">
                     <a href="#" class="active">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#aboutus">About Us</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#services">Services</a>
+                    <a href="#contactus">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -113,11 +113,11 @@
                 <div class="welcome-buttons flex align-center justify-center">
                     <div class="candidate text-center flex direction-col align-center justify-center">
                         <h4>I am Candidate</h4>
-                        <button class="btn anim-btn hero-btn-shadow">Get Job Now</button>
+                        <button class="btn anim-btn hero-btn-shadow"><a href="#registerme">Get Job Now</a></button>
                     </div>
                     <div class="employer flex direction-col align-center justify-center">
                         <h4>I am Employer</h4>
-                        <button class="btn anim-btn hero-btn-shadow">Hire Now</button>
+                        <button class="btn anim-btn hero-btn-shadow"><a href="#postjob">Hire Now</a></button>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
         </div>
     </section>
  
-    <section class="how-work-sec">
+    <section class="how-work-sec" id="aboutus">
         <div class="container flex align-center direction-col">
             <h1>- How We Work -</h1>
             <div class="margin-ok flex align-center justify-between">
@@ -208,7 +208,7 @@
         </div>
     </section>
 
-    <section class="job-categories">
+    <section class="job-categories" id="services">
         <div class="container flex align-center justify-center direction-col">
             <h1>- Job Categories -</h1>
             <div class="job-container flex align-center bottom-margin">
@@ -280,7 +280,7 @@
     </section>
 
 
-    <section class="hire-me">
+    <section class="hire-me" id="registerme">
         <div class="container flex justify-center align-center">
             
             <div class="form-container flex align-center justify-center direction-col">
@@ -395,7 +395,7 @@
     </section>
 
 
-    <section class="review-section ">
+    <section class="review-section " id="blog">
         <h1 class=" review-heading text-center">- See what people are saying -</h1>
         <div class="container   review-container">
             <div class="slider ">
@@ -539,7 +539,7 @@
         </div>
     </section>
 
-    <section class="company-hire-me">
+    <section class="company-hire-me" id="postjob">
         <div class="container flex justify-center align-center">
             
             <div class="form-container flex align-center justify-center direction-col">
@@ -773,16 +773,16 @@
         </div>
     </section>
 
-    <section class="contact-us">
+    <section class="contact-us" id="contactus">
         <div class="contact-wrap">
             <div class="contact-in">
                 <h1>Contact Info</h1>
-                <h2><i class="fas fa-phone-alt"></i> Phone</h2>
-                <p>123-456-789</p>
+                <h2><a href="tel:+917888665915" target="_blank"><i class="fas fa-phone-alt"></i></a> Phone</h2>
+                <p>+917888665915</p>
                 <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
                 <p>info@democompany.com</p>
                 <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
-                <p>Vasant Vihar, Delhi, India</p>
+                <p>near DP dada school, Aman Nagar, Jalandhar, Punjab 144004</p>
                 <ul>
                     <li><a href="#" ><i class="fab fa-facebook"></i></a></li>
                     <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
@@ -802,18 +802,16 @@
         <div class="container flex ">
             <div class="box">
                 <h3>About Us</h3>
-                <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum passage.</p>
+                <p>Our mission is to unlock the career potential of all Indians . All Should be Employed</p>
             </div>
             <div class="box">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                    <li><a href="#services">Services</a></li>
                 </ul>
             </div>
             <div class="box follow">
