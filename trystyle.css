@@ -2641,6 +2641,7 @@ section.contact-us {
     .hero .container .welcome-buttons .employer{
         margin-left: 2rem;
         margin-right: 2rem;
+	margin-bottom: 1rem;
     }
     .hero .welcome-buttons .candidate h4,.hero .welcome-buttons .employer h4{
         font-size: 1rem;
