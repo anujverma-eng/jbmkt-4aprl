@@ -2253,25 +2253,30 @@ footer.copyright{
         padding-top: 1rem;
     }
     section.how-work-sec .work img{
-        width: 60px;
+        width: 75px;
     }
     section.how-work-sec .work .work-heading{
-        font-size: 0.6rem;
+        font-size: 0.75rem;
         letter-spacing: 1px;
+    }
+    section.how-work-sec{
+        padding: 0.25rem 0.75rem;
+        padding-left: 0.25rem;
     }
     section.how-work-sec .work{
         height: 230px;
-        width: 130px;
+        width: 150px;
     }
     section.how-work-sec .work .work-para{
-        font-size: 0.6rem;
-        margin-top: 0.7rem;
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
     }
     section.job-categories .job-container .job-name a i{
         font-size: 1.8rem;
     }
     section.job-categories .job-container .job-name h4{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+        text-align: center;
     }
     section.job-categories .job-container .job-name{
         height: 90px;
@@ -2285,6 +2290,7 @@ footer.copyright{
     }
     section.helps-to-find  .job-help-heading h1{
         font-size: 1rem;
+        text-align: center;
     }
     section.helps-to-find  .job-help-heading h2{
         font-size: 0.75rem;
@@ -2315,15 +2321,21 @@ footer.copyright{
     }
     header.topbar .emp-topbar{
         margin-left: 1.2rem;
+        margin-right: 0.1rem;
+    }
+    nav .navbar a{
+        font-size: 0.9rem;
+        padding: 0.5rem 0.2rem;
+        margin-right: 0.2rem;
     }
     header.topbar .emp-topbar a i{
         display: none;
     }
     .hero .welcome h1{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     .hero .welcome h3{
-        font-size: 0.5rem;
+        font-size: 0.9 rem;
     }
     nav .top{
         padding-top: 1.5rem;
@@ -2377,6 +2389,32 @@ footer.copyright{
         border-radius: 5px;
         height: 1.5rem;
         padding: 0.2rem;
+    }
+    section.review-section .review-heading{
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+    section.our-team{
+        font-size: 1rem;
+    }
+    section.our-team .section-our-team .our-team-container .card{
+        width: 250px;
+        height: 300px;
+    }
+    section.our-team .section-our-team .our-team-container .card .content .img-box{
+        width: 90px;
+        height: 90px;
+    }
+    section.our-team .section-our-team::before{
+        clip-path: circle(15% at right 100%);
+    }
+    section.our-team .section-our-team::after{
+        clip-path: circle(15% at 0% 5%);
+    }
+    footer.copyright{
+        font-size: 0.75rem;
+    letter-spacing: 1px;
+    word-spacing: 0px;
     }
 }
 
